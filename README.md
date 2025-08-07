@@ -1,4 +1,4 @@
-# Childhood Traumas and Their Effects
+# ACE Insight: Mapping Trauma, Impact & Resilience
 _How one **stable and caring adult** can make a world of difference_
 
 ## Project Overview
@@ -79,6 +79,8 @@ Analysis begins with showing the prevalance of ACEs across the globe using a glo
 
 ## Insights and Recommendations 
 
+
+##  References
 [^1]: ChatGPT Analysis
 [^2]: [Adverse Childhood Experiences and Associations in SSA](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160582/)
 ```Brown C, Nkemjika S, Ratto J, Dube SR, Gilbert L, Chiang L, Picchetti V, Coomer R, Kambona C, McOwen J, Akani B, Kamagate MF, Low A, Manuel P, Agusto A, Annor FB. Adverse Childhood Experiences and Associations with Mental Health, Substance Use, and Violence Perpetration among Young Adults in sub-Saharan Africa. Child Abuse Negl. 2024 Apr;150:106524. doi: 10.1016/j.chiabu.2023.106524. Epub 2023 Oct 26. PMID: 38854869; PMCID: PMC11160582.```
