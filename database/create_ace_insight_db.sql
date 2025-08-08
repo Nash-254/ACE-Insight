@@ -1,6 +1,4 @@
 -- ================================================================================
--- PostgreSQL Database Schema for ACEs Analysis
--- Adverse Childhood Experiences prevalence, Impact and Resilience factors
--- This databaseis designed to store data related to ACEs, including survey responses,
+-- PostgreSQL Database for ACE Insight: Mapping Trauma, Impact & Resilience
 -- ==================================================================================
 CREATE DATABASE ace_insight;

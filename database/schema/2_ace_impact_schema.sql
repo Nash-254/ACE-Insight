@@ -5,13 +5,13 @@ CREATE SCHEMA IF NOT EXISTS ace_impact;
 SET search_path TO ace_impact, public;
 
 -- ===============================================================================
--- 1. Table creation, data insert and queries for young adults life outcomes of 5 SSA countries
+-- 1. Table creation, data insert and queries for young adults life outcomes of 5 SSA countries analysis
 -- Source: "Adverse Childhood Experiences and Associations with Mental Health,Substance Use, and Violence Perpetration among Young Adults insub-Saharan Africa"; Table 3
 ----------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------------
--- END of creation, data insert and queries for young adults life outcomes of 5 SSA countries
+-- END of creation, data insert and queries for young adults life outcomes of 5 SSA countries analysis
 -- ===============================================================================
 
 
@@ -20,7 +20,7 @@ SET search_path TO ace_impact, public;
 -- Source: "Health and financial costs of adverse childhood experiences in 28 European countries_a systematic review and meta-analysis"; Table 4
 ---------------------------------------------------------------------------------
 
--- Create the table schema
+--TABLES CREATION AND DATA INSERT
 CREATE TABLE ace_impact.europe_ace_costs (
     id SERIAL PRIMARY KEY,
     country_name VARCHAR(50),
@@ -30,8 +30,6 @@ CREATE TABLE ace_impact.europe_ace_costs (
     ace_attributable_costs_usd_billion DECIMAL(10,2) NOT NULL,
     equivalent_percent_of_gdp DECIMAL(5,2) NOT NULL
 );
-
--- DATA INSERT 
 
 INSERT INTO ace_impact.europe_ace_costs (
     country_name,
@@ -71,13 +69,15 @@ INSERT INTO ace_impact.europe_ace_costs (
     ('United Kingdom', 66.8, 42300.3, 1858.7, 78.6, 2.8);
 
 -- Create indexes for better query performance
-CREATE INDEX idx_population ON ace_impact.ace.europe_ace_costs(population_millions);
-CREATE INDEX idx_gdp_per_capita ON ace_impact.ace.europe_ace_costs(gdp_per_capita_usd_2019);
-CREATE INDEX idx_ace_costs ON ace_impact.ace.europe_ace_costs(ace_attributable_costs_usd_billion);
-CREATE INDEX idx_gdp_percentage ON ace_impact.ace.europe_ace_costs(equivalent_percent_of_gdp);
+CREATE INDEX idx_population ON ace_impact.europe_ace_costs(population_millions);
+CREATE INDEX idx_gdp_per_capita ON ace_impact.europe_ace_costs(gdp_per_capita_usd_2019);
+CREATE INDEX idx_ace_costs ON ace_impact.europe_ace_costs(ace_attributable_costs_usd_billion);
+CREATE INDEX idx_gdp_percentage ON ace_impact.europe_ace_costs(equivalent_percent_of_gdp);
 
 SELECT * FROM ace_impact.europe_ace_costs;
 
+
+-- DATA QUERY ANALYSIS
 
 -- Top 5 countries by ACE costs
 SELECT country_name, ace_attributable_costs_usd_billion 
@@ -111,11 +111,11 @@ ORDER BY population_millions DESC, ace_attributable_costs_usd_billion DESC;
 
 
 -- ===============================================================================
--- 3. Table creation, data insert and queries for relationship between ACEs and adult mental health outcomes
+-- 3. Table creation, data insert and queries for relationship between ACEs and adult mental health outcomes analysis
 -- Source: "Unpacking the impact of adverse childhood experiences on adult mental health"; Table 2
 ----------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------------
--- END of creation, data insert and queries for relationship between ACEs and adult mental health outcomes
+-- END of creation, data insert and queries for relationship between ACEs and adult mental health outcomes analysis
 -- ===============================================================================
