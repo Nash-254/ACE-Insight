@@ -34,7 +34,7 @@ The project seeks to highlight:
 
 An additional compiled project is available which has utilized the below tools:
 - **Python**: Main programming language used.
-  - **SQLite 3**: For working with SQL databases directly within Python; database connection and analysis queries
+  - **psycopg2**: For working with SQL databases directly within Python; database connection and analysis queries
   - **Pandas**: For handling and analyzing data.
   - **Matplotlib**: For creating basic charts and graphs.
   - **Seaborn**: For more advanced and visually appealing plots.

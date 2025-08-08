@@ -10,49 +10,49 @@ SET search_path TO resilience_factors, public;
 ------------------------------------------------------------------------------------
 --TABLES CREATION AND DATA INSERTS
 -- Outcomes Table
-CREATE TABLE outcomes (
+CREATE TABLE resilience_factors.outcomes (
     outcome_id SERIAL PRIMARY KEY,
     outcome_name VARCHAR(100) NOT NULL
 );
 
-INSERT INTO outcomes (outcome_name) VALUES
+INSERT INTO resilience_factors.outcomes (outcome_name) VALUES
 ('Mental distress'), 
 ('Suicidal/self-harm'), 
 ('Substance use');
 
-SELECT * FROM outcomes;
+SELECT * FROM resilience_factors.outcomes;
 
 -- ACE Groups Table
-CREATE TABLE ace_groups (
+CREATE TABLE resilience_factors.ace_groups (
     ace_group_id SERIAL PRIMARY KEY,
     ace_group_label VARCHAR(20) UNIQUE NOT NULL  -- e.g., '0 ACEs', '1+ ACEs'
 );
 
-INSERT INTO ace_groups (ace_group_label) VALUES
+INSERT INTO resilience_factors.ace_groups (ace_group_label) VALUES
 ('0 ACEs'), 
 ('1+ ACEs');
 
-SELECT * FROM ace_groups;
+SELECT * FROM resilience_factors.ace_groups;
 
 -- PCE Types Table
-CREATE TABLE pce_types (
+CREATE TABLE resilience_factors.pce_types (
     pce_type_id SERIAL PRIMARY KEY,
     pce_name VARCHAR(100) NOT NULL
 );
 
-INSERT INTO pce_types (pce_name) VALUES
+INSERT INTO resilience_factors.pce_types (pce_name) VALUES
 ('Strong mother–child relationship'),
 ('Strong father–child relationship'),
 ('High parental monitoring');
 
-SELECT * FROM pce_types;
+SELECT * FROM resilience_factors.pce_types;
 
 -- Study Results Table
-CREATE TABLE study_results (
+CREATE TABLE resilience_factors.study_results (
     result_id SERIAL PRIMARY KEY,
-    outcome_id INT REFERENCES outcomes(outcome_id),
-    ace_group_id INT REFERENCES ace_groups(ace_group_id),
-    pce_type_id INT REFERENCES pce_types(pce_type_id),
+    outcome_id INT REFERENCES resilience_factors.outcomes(outcome_id),
+    ace_group_id INT REFERENCES resilience_factors.ace_groups(ace_group_id),
+    pce_type_id INT REFERENCES resilience_factors.pce_types(pce_type_id),
     sex VARCHAR(6) NOT NULL,                     -- 'Male' or 'Female'
     pce_present BOOLEAN NOT NULL,
     aor NUMERIC(4,2),
@@ -61,7 +61,7 @@ CREATE TABLE study_results (
     p_value NUMERIC(3,2)
 );
 
-INSERT INTO study_results
+INSERT INTO resilience_factors.study_results
 (outcome_id, ace_group_id, pce_type_id, sex, pce_present, aor, ci_low, ci_high, p_value)
 VALUES
 -- Strong mother–child relationship
@@ -88,23 +88,22 @@ VALUES
 (1, 1, 3, 'Female', TRUE, 0.50, 0.30, 0.80, 0.05),
 (1, 2, 3, 'Female', TRUE, 1.20, 0.80, 1.70, NULL);
 
-SELECT * FROM study_results;
+SELECT * FROM resilience_factors.study_results;
 
 
 -- DATA QUERY ANALYSIS
 
--- Shows which PCEs have a statistically significant protective effect (p < 0.05 and aOR < 1) for people with 1+ ACEs:
-
+-- Shows which PCEs have a statistically significant protective effect (p < 0.05 and aOR < 1) for people with 1+ ACEs
 SELECT 
     p.pce_name,
     o.outcome_name,
     sr.sex,
     COUNT(*) AS significant_cases,
     ROUND(AVG(sr.aor), 2) AS avg_aor
-FROM study_results sr
-JOIN pce_types p ON sr.pce_type_id = p.pce_type_id
-JOIN outcomes o ON sr.outcome_id = o.outcome_id
-JOIN ace_groups ag ON sr.ace_group_id = ag.ace_group_id
+FROM resilience_factors.study_results sr
+JOIN resilience_factors.pce_types p ON sr.pce_type_id = p.pce_type_id
+JOIN resilience_factors.outcomes o ON sr.outcome_id = o.outcome_id
+JOIN resilience_factors.ace_groups ag ON sr.ace_group_id = ag.ace_group_id
 WHERE ag.ace_group_label = '1+ ACEs'
   AND sr.p_value IS NOT NULL
   AND sr.p_value <= 0.05
@@ -120,9 +119,9 @@ SELECT
     ROUND(AVG(sr.aor), 2) AS avg_aor,
     MIN(sr.aor) AS min_aor,
     MAX(sr.aor) AS max_aor
-FROM study_results sr
-JOIN pce_types p ON sr.pce_type_id = p.pce_type_id
-JOIN ace_groups ag ON sr.ace_group_id = ag.ace_group_id
+FROM resilience_factors.study_results sr
+JOIN resilience_factors.pce_types p ON sr.pce_type_id = p.pce_type_id
+JOIN resilience_factors.ace_groups ag ON sr.ace_group_id = ag.ace_group_id
 WHERE ag.ace_group_label = '1+ ACEs'
 GROUP BY p.pce_name, sr.sex
 ORDER BY avg_aor ASC;
@@ -137,21 +136,21 @@ SELECT
     sr.ci_low,
     sr.ci_high,
     sr.p_value
-FROM study_results sr
-JOIN pce_types p ON sr.pce_type_id = p.pce_type_id
-JOIN outcomes o ON sr.outcome_id = o.outcome_id
+FROM resilience_factors.study_results sr
+JOIN resilience_factors.pce_types p ON sr.pce_type_id = p.pce_type_id
+JOIN resilience_factors.outcomes o ON sr.outcome_id = o.outcome_id
 JOIN ace_groups ag ON sr.ace_group_id = ag.ace_group_id
 WHERE p.pce_name = 'Strong mother–child relationship'
 ORDER BY sr.sex, ag.ace_group_label, o.outcome_name;
 ----------------------------------------------------------------------------------
--- END of creation, data insert and queries for evaluation of whether — and which — PCEs moderate the association between ACEs and negative outcomes in SSA.
+-- END of creation, data insert and queries for evaluation of whether — and which — PCEs moderate the association between ACEs and negative outcomes analysis.
 -- ===============================================================================
 
 
 
 
 -- ==============================================================================
--- 2. Tables creation, data insert and queries for Always Available Adult (AAA) Support vs ACEs, Health-Harming Behaviors (HHBs), and Lower Mental Well-Being (LMWB) analysis 
+-- 2. Tables creation, data insert and queries for Always Available Adult (AAA) Support vs ACEs, Health-Harming Behaviors (HHBs), and Lower Mental Well-Being (LMWB) analysis.
 -- Source: "Does continuous trusted adult support in childhood impart life-course resilience against adverse childhood experiences"; Table 1
 ------------------------------------------------------------------------------------
 
@@ -269,6 +268,6 @@ SELECT
     CASE WHEN aaa_support_available THEN 'With_AAA' ELSE 'Without_AAA' END,
     multiple_hhbs_rate
 FROM resilience_factors.aaa_support_outcomes;
--------------------------------------
+----------------------------------------------------------------------------------
 -- END of tables creation, data insert and queries or Always Available Adult (AAA) Support vs ACEs, Health-Harming Behaviors (HHBs), and Lower Mental Well-Being (LMWB) analysis
 -- ===============================================================================
