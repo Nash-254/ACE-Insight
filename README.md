@@ -27,23 +27,22 @@ The project seeks to highlight:
 3. The **resilience factors** and their effects on mitigating trauma driven behaviours (TDB)
 
 ## Tools & Technologies Used
-- **PostgreSQL**: Schema design and data analysis using SQL
-- **Power BI**: Interactive data visualization with dynamic drill-down capabilities
-- **VS Code**: Integrated Development Environment (IDE) for scripting and data handling
-- **Git & GitHub**: Version control and collaboration
-
-An additional compiled project is available which has utilized the below tools:
+A hybrid approach integrated **SQL’s efficiency** in data extraction, schema design, and structured data management with **Python’s powerful statistical analysis** and **rich visualization** capabilities, delivering a workflow that was both efficient and insight-driven.
+- **PostgreSQL**: Schema design and initial data analysis using SQL.
 - **Python**: Main programming language used.
-  - **psycopg2**: For working with SQL databases directly within Python; database connection and analysis queries
+  - **SQLAlchemy + psycopg2**: For working with SQL databases directly within Python; database connection and analysis queries.
   - **Pandas**: For handling and analyzing data.
   - **Matplotlib**: For creating basic charts and graphs.
   - **Seaborn**: For more advanced and visually appealing plots.
-- **Jupyter Notebooks**: An interactive environment for combining code, text, and visuals in one document. 
+- **VS Code**: Integrated Development Environment (IDE) for scripting and data handling.
+- **Jupyter Notebooks**: An interactive environment for combining code, text, and visuals in one document.
+- **Git & GitHub**: Version control and collaboration.
+- **Power BI**: Interactive data visualization with dynamic drill-down capabilities.
 
 
 ## Abbreviations
 - **ACE**: Adverse Childhood Experience
-- **PCE**: positive Childhood Experiences
+- **PCE**: Positive Childhood Experiences
 - **AAA**: Always Available Adult support in childhood
 - **TDB**: Trauma Drive Behaviours
 - **HHB**: Health-Harming Behaviour
@@ -54,7 +53,7 @@ An additional compiled project is available which has utilized the below tools:
 - **CI**: Confidence Interval
 
 
-## Schema Creation
+## Schema Design
 The first step is to create the database and define the schemas that will support the analysis. The following schema titles serve as a guide, reflecting the complexity and thematic scope of the data:
 1. **ACE Prevalance** 
    - ***ACE prevalance by region***: Captures global ACE prevalence data across different regions [^1]
