@@ -23,6 +23,12 @@ CREATE TABLE ace_prevalence.ace_prevalence_by_region (
 INSERT INTO ace_prevalence.ace_prevalence_by_region 
 (region_name, continent, ace_prevalence_percent, population_group, data_source, year)
 VALUES 
+-- Africa
+('South Africa', 'Africa', 88.00, 'Young adults (18–24)', 'UNICEF and CDC Report on Sub-Saharan Africa', 2019),
+('Kenya', 'Africa', 79.00, 'Adolescents aged 13–24', 'CDC VACS - Kenya', 2010),
+('Nigeria', 'Africa', 70.50, 'University students', 'Nigerian Journal of Psychiatry - ACEs Survey', 2017),
+('Zambia', 'Africa', 75.00, 'Young adults (18–24)', 'CDC VACS - Zambia', 2014),
+
 -- North America
 ('United States', 'North America', 61.00, 'General adult population', 'CDC Behavioral Risk Factor Surveillance System (BRFSS)', 2019),
 ('Canada', 'North America', 66.00, 'Adults (18–64)', 'Canadian Community Health Survey (CCHS)', 2014),
@@ -43,15 +49,20 @@ VALUES
 ('China', 'Asia', 56.80, 'Rural adults aged 18–45', 'Journal of Affective Disorders - ACE China Study', 2017),
 ('Pakistan', 'Asia', 64.00, 'General population', 'BMC Public Health - Pakistan ACE Study', 2018),
 
--- Africa
-('South Africa', 'Africa', 88.00, 'Young adults (18–24)', 'UNICEF and CDC Report on Sub-Saharan Africa', 2019),
-('Kenya', 'Africa', 79.00, 'Adolescents aged 13–24', 'CDC VACS - Kenya', 2010),
-('Nigeria', 'Africa', 70.50, 'University students', 'Nigerian Journal of Psychiatry - ACEs Survey', 2017),
-('Zambia', 'Africa', 75.00, 'Young adults (18–24)', 'CDC VACS - Zambia', 2014),
-
 -- Oceania
 ('Australia', 'Oceania', 56.00, 'General adult population', 'Australian Child Maltreatment Study', 2023),
 ('New Zealand', 'Oceania', 62.00, 'Adults aged 18–64', 'New Zealand Family Violence Clearinghouse', 2019);
+
+INSERT INTO ace_prevalence.ace_prevalence_by_region 
+(region_name, continent, ace_prevalence_percent, population_group, data_source, year)
+VALUES 
+
+('Namibia', 'Africa', 68.00, 'Adolescents & young adults (VACS)', 'Namibia VACS / national reports', 2019),
+('Russia', 'Europe', 84.60, 'Young adults / higher education sample', 'WHO / national ACE survey (Kachaeva et al.)', 2004),
+('Uganda', 'Africa', 72.00, 'Adolescents & young adults (VACS)', 'Uganda VACS / national reports', 2015),
+('Malawi', 'Africa', 74.00, 'Adolescents & young adults (VACS)', 'Malawi VACS / national reports', 2013),
+('Mozambique', 'Africa', 70.00, 'Adolescents & young adults', 'Mozambique VACS / national studies', 2019),
+('Lesotho', 'Africa', 80.00, 'Adolescents & young adults (VACS)', 'Lesotho VACS / national reports', 2019);
 
 SELECT * FROM ace_prevalence.ace_prevalence_by_region;
 ----------------------------------------------------------------------------------
