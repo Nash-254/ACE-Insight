@@ -1,5 +1,4 @@
 # ACE Insight: Mapping Trauma, Impact & Resilience
-_How one **stable and caring adult** can make a world of difference_
 
 ## Project Overview
 This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** can help mitigate these effects. The analysis is based on report findings from the following regions:
