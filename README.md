@@ -60,7 +60,7 @@ The first step is to create the database and define the schemas that will suppor
 2. **ACE Impact**
    1. ***ACEs on young adults' life outcomes***: Aggregated data from five SSA countries, showing correlations between ACEs and negative life outcomes [^2]
    2. ***Economic cost of ACEs***: Data from 28 European countries analyzing the economic impact of ACEs on national GDP. [^3]
-   3. ***ACEs and adult mental health***: Analyzes the associations between self-reported mental health outcomes and ACEs. [^4]
+   3. ***ACEs and adult mental health***: Analyzes the associations between self-reported mental health outcomes and ACEs from adult members of Kaiser Permanente in southern California [^4]
 3. **Resilience factors**
    - ***PCEs***:Evaluates whether — and which — PCEs moderate the association between ACEs and negative outcomes.[^5] 
    - ***AAA Support***:  analyze if access to a trusted adult in childhood is associated with reduced impacts of ACEs [^6]

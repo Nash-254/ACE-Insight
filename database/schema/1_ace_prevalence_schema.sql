@@ -8,7 +8,7 @@ SET search_path TO ace_prevalence, public;
 -- Table creation, data insert and queries for ACE Prevalence % by Region
 -- Based on various global surveys and studies
 -------------------------------------------------------------------------------
-
+-- TABLE CREATION
 CREATE TABLE ace_prevalence.ace_prevalence_by_region (
     id SERIAL PRIMARY KEY,
     region_name VARCHAR(100) NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE ace_prevalence.ace_prevalence_by_region (
     year INT
 );
 
-
+-- DATA INSERTION
 INSERT INTO ace_prevalence.ace_prevalence_by_region 
 (region_name, continent, ace_prevalence_percent, population_group, data_source, year)
 VALUES 
@@ -64,7 +64,18 @@ VALUES
 ('Mozambique', 'Africa', 70.00, 'Adolescents & young adults', 'Mozambique VACS / national studies', 2019),
 ('Lesotho', 'Africa', 80.00, 'Adolescents & young adults (VACS)', 'Lesotho VACS / national reports', 2019);
 
+-- VERIFY DATA INTEGRITY
 SELECT * FROM ace_prevalence.ace_prevalence_by_region;
+
+-- DATA QUERY
+-- Query to retrieve ACE prevalence by region, ordered by prevalence percentage, highest first
+SELECT
+    region_name,
+    continent,
+    ace_prevalence_percent
+FROM
+    ace_prevalence.ace_prevalence_by_region
+ORDER BY ace_prevalence_percent DESC;
 ----------------------------------------------------------------------------------
 -- END of creation, data insert and queries for ACE Prevalence % by Region
 -- ===============================================================================
