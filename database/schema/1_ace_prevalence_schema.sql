@@ -56,7 +56,6 @@ VALUES
 INSERT INTO ace_prevalence.ace_prevalence_by_region 
 (region_name, continent, ace_prevalence_percent, population_group, data_source, year)
 VALUES 
-
 ('Namibia', 'Africa', 68.00, 'Adolescents & young adults (VACS)', 'Namibia VACS / national reports', 2019),
 ('Russia', 'Europe', 84.60, 'Young adults / higher education sample', 'WHO / national ACE survey (Kachaeva et al.)', 2004),
 ('Uganda', 'Africa', 72.00, 'Adolescents & young adults (VACS)', 'Uganda VACS / national reports', 2015),
@@ -73,8 +72,7 @@ SELECT
     region_name,
     continent,
     ace_prevalence_percent
-FROM
-    ace_prevalence.ace_prevalence_by_region
+FROM ace_prevalence.ace_prevalence_by_region
 ORDER BY ace_prevalence_percent DESC;
 ----------------------------------------------------------------------------------
 -- END of creation, data insert and queries for ACE Prevalence % by Region
