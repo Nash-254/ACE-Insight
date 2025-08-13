@@ -165,13 +165,16 @@ The resilience schema is divided into two thematic areas: Positive Childhood Exp
 ### 1. Prevalance of ACEs
 Analysis begins with showing the prevalance of ACEs across the globe using a global analysis of the various research done per continent basis. Findings show that there's a high prevalance in low-income and middle-income countries at the 80+ percentile and high-income countries at the 35+ percentile.
 
-See [ACE Prevalence % by Region notebook](/visuals/ACE_Prevalence_%_by_Region_notebook) for detailed steps.
+See [ACE Prevalence % by Region notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed steps.
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
+## Insights
+- This suggests **ACE prevalence is a widespread issue globally** rather than isolated to specific regions.
+- The high rates in many African countries could indicate **systemic socioeconomic stressors**, historical trauma, or under-resourced social systems.
+- Countries with unexpectedly high prevalence outside Africa may need **targeted policy reviews** and public health interventions.
+- The **lack of countries with <30%** prevalence in the dataset suggests that **Adverse Childhood Experiences are common globally**, and **prevention strategies must be cross-cultural**.
 
-
->[!NOTE] Insert query & charts
 
 ### 2. Impact of ACEs
 
