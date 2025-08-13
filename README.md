@@ -232,7 +232,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 5. **Economic and health strategies are intertwined** — reducing ACE prevalence improves both population health and national economic performance.
 
 ## Conclusion
-Adverse Childhood Experiences (ACEs) leave deep, lasting marks, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope.
+**Adverse Childhood Experiences (ACEs) leave deep, lasting marks**, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope.
 
 ###  References
 [^1]: ChatGPT Analysis
