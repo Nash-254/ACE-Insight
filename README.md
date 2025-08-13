@@ -3,18 +3,19 @@
 ## Project Overview
 This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** and **Always Available Adult (AAA)** support in childhood can help mitigate these effects. The analysis is based on report findings from the following regions:
 1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**. Research was done on a variety of population groups, ages 18-65.
-2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia, focusing on **associations and outcomes of ACEs and PCEs** in young adults. Survey was conducted on young adults aged 18–24.
+2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia, focusing on associations and outcomes of ACEs and PCEs in young adults, specifically focusing on **dose-response pattern** and **gender-specific differences**. Survey was conducted on young adults aged 18–24.
 3. **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire, focusing on on health-harming behaviours (HHBs) and lower mental well-being (LMWBs) caused by ACEs and investigates whether **continuous support from a trusted adult during childhood** can build resilience, mitigating these negative effects. Study was conducted on adults aged 18–69.
 4.  **Europe**: 28 countries focusing on health of adults caused by ACEs and the **financial cost to GDP** as a result.
 
-Cumulative ACEs—encompassing abuse, neglect, household dysfuntion and other adversities like witnessing community violence and orphanhood—were quantified as an integer count ranging from 0 to 6. Adjusted odds ratios (AORs) with corresponding 95% confidence intervals (CIs) were estimated, and associations were considered statistically significant at p < 0.05.
+Cumulative ACEs—encompassing abuse, neglect, household dysfuntion and other adversities like witnessing community violence and orphanhood—were quantified as an integer count ranging from 0 to 6. **Adjusted odds ratios (AORs)** with corresponding **95% confidence intervals (CIs)** were estimated, and associations were considered statistically significant at **p < 0.05**.
 
 
 ## Data Source
-The data used in this project is drawn from peer-reviewed reports and articles available on:
-1. **PubMed Central (PMC)**, a free digital archive maintained by the **National Institutes of Health’s National of Medicine (NIH/NLM), USA**; https://www.ncbi.nlm.nih.gov/
-2. [ScienceDirect.com](https://www.sciencedirect.com/)
-3. [ISPCAN](https://ispcan.org/)
+The data used in this project is drawn from **peer-reviewed journal articles** mainly from **PubMed Central (PMC)**, a free digital archive maintained by the **National Institutes of Health’s National of Medicine (NIH/NLM), USA**; https://www.ncbi.nlm.nih.gov/
+
+Other sources include:
+1. [ScienceDirect.com](https://www.sciencedirect.com/)
+2. [ISPCAN](https://ispcan.org/)
 
 It is important to note that, due to the region-specific focus of individual reports and articles, not all regions are represented across all tables. As such, each analysis is confined to the scope of the source from which the data was derived.
 
@@ -46,22 +47,62 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 - **HHB**: Health-Harming Behaviour
 - **LMWB**: Lower Mental Well-Being
 - **SSA**: Sub-Saharan Africa
-- **GDP**: Gross Domestic Product,
+- **GDP**: Gross Domestic Product
 - **AOR**: Adjusted Odds Ratio
 - **CI**: Confidence Interval
 
 
 ## Schema Design
-The first step is to create the database and define the schemas that will support the analysis. The following schema titles serve as a guide, reflecting the complexity and thematic scope of the data:
-1. **ACE Prevalance** 
-   - ***ACE prevalance by region***: Captures global ACE prevalence data across different regions [^1]
-2. **ACE Impact**
-   1. ***ACEs on young adults' life outcomes***: Aggregated data from five SSA countries, showing correlations between ACEs and negative life outcomes, specifically focusing on dose-response pattern and gender-specific differences. [^2]
-   2. ***ACEs and adult mental health***: Analyzes the associations between self-reported mental health outcomes and ACEs from adult members of Kaiser Permanente in southern California [^3]
-   3. ***Economic cost of ACEs***: Data from 28 European countries analyzing the economic impact of ACEs on national GDP. [^4]
-3. **Resilience factors**
-   1. ***PCEs***:Evaluates whether — and which — PCEs moderate the association between ACEs and negative outcomes.[^5] 
-   2. ***AAA Support***:  analyze if access to a trusted adult in childhood is associated with reduced impacts of ACEs [^6]
+The database is organized into thematic schemas, each containing structured tables optimized for storing and querying the study datasets. All tables include primary keys, appropriate data types, and constraints to ensure referential integrity and facilitate cross-study analysis. Data was sourced from specific tables in the articles.
+
+**1. `ace_prevalence` Schema**
+
+Stores global ACE prevalence data by geographic region and country.
+-	**Table**: `ace_prevalence_by_region`
+-	**Purpose**: Capture prevalence percentages across continents, with metadata such as year, population group, and data source.
+-	**Key Fields**:
+    - `region_name` (VARCHAR) – Name of the country or subregion.
+    - `continent` (VARCHAR) – Continent classification.
+    - `ace_prevalence_percent` (DECIMAL) – Percentage prevalence of ACEs.
+    - `population_group` (VARCHAR) – Demographic group surveyed.
+    - `data_source` (TEXT) – Study or survey reference.
+    - `year` (INT) – Year of data collection.
+________________________________________
+**2. `ace_impact` Schema**
+
+Houses multiple datasets analyzing the effects of ACEs and their economic impact.
+
+**a. Table**: `ace_associations`
+- **Purpose**: Store adjusted odds ratios (AORs), confidence intervals, and p-values for health and behavioral outcomes in young adults (18–24) in five Sub-Saharan African countries.
+- **Key Fields**:
+  - `ace_category` (VARCHAR) – Outcome category (e.g., suicidal/self-harm).
+  - `ace_exposure_group` (VARCHAR) – ACE exposure level (0, 1–2, ≥3).
+  - `sex` (VARCHAR) – Participant gender.
+  - `aor`, `aor_ci_low`, `aor_ci_high` (NUMERIC) – Adjusted odds ratio and CI bounds.
+  - `p_value` (NUMERIC) – Statistical significance indicator.
+  - 
+**b. Table**: `ace_mental_health_associations`
+- **Purpose**: Link specific ACE types to adult mental health outcomes with ORs and CIs, adjusted for demographic covariates.
+- **Key Fields**:
+  - `ace_type` (VARCHAR) – ACE category (e.g., emotional abuse).
+  - `outcome_type` (VARCHAR) – Associated adult outcome (e.g., heavy drinking).
+  - `odds_ratio`, `ci_lower`, `ci_upper` (DECIMAL) – Effect size metrics.
+  - `adjustment_note` (TEXT) – Adjustment factors applied in analysis.
+  
+**c. Table**: `country_costs`
+- **Purpose**: Quantify the economic burden of ACEs in European countries as GDP loss.
+- **Key Fields**:
+  - `country` (TEXT) – Country name (primary key).
+  - `population_millions` (NUMERIC) – Population size.
+  - `gdp_per_capita_usd` (NUMERIC) – GDP per capita in USD.
+  - `ace_dalys_thousands` (NUMERIC) – Disability-adjusted life years lost due to ACEs.
+  - `ace_costs_billion_usd` (NUMERIC) – Estimated financial cost.
+  - `percent_gdp` (NUMERIC) – Share of GDP lost.
+________________________________________
+1. Resilience Factors (Planned Schemas)
+Future schema modules will capture resilience-related variables such as Positive Childhood Experiences (PCEs) and Always Available Adult (AAA) support. These will link to ace_impact outcome datasets via participant identifiers, enabling moderation analysis.
+
+
 
 
 ## Data Analysis
