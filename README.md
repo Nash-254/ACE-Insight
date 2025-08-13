@@ -72,7 +72,7 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 ## Schema Design
 The database is organized into thematic schemas, each containing structured tables optimized for storing and querying the study datasets. All tables include primary keys, appropriate data types, and constraints to ensure referential integrity and facilitate cross-study analysis. Data was sourced from specific tables in the articles.
 
-**1. `ace_prevalence` Schema**
+**1. `ace_prevalence` Schema; 1 table**
 
 Stores global ACE prevalence data by geographic region and country.
 -	**Table**: `ace_prevalence_by_region`
@@ -175,7 +175,7 @@ Finally, the project explores how Positive Childhood Experiences (PCEs) and the 
 
 See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) for detailed steps.
 
-### A. Positive Childhood Experiences (PCEs)**
+### A. Positive Childhood Experiences (PCEs)
 ___
 ![PCEs with significant protective effect](/visuals/3.1PCEs_with_significant_protective_effect.png)
 
