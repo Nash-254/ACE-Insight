@@ -2,10 +2,11 @@
 
 ## Project Overview
 This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** and **Always Available Adult (AAA)** support in childhood can help mitigate these effects. The analysis is based on report findings from the following regions:
-1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**. Research was done on a variety of population groups, ages 18-65.
-2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia, focusing on associations and outcomes of ACEs and PCEs in young adults, specifically focusing on **dose-response pattern** and **gender-specific differences**. Survey was conducted on young adults aged 18–24.
-3. **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire, focusing on on health-harming behaviours (HHBs) and lower mental well-being (LMWBs) caused by ACEs and investigates whether **continuous support from a trusted adult during childhood** can build resilience, mitigating these negative effects. Study was conducted on adults aged 18–69.
-4.  **Europe**: 28 countries focusing on health of adults caused by ACEs and the **financial cost to GDP** as a result.
+1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**.
+2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia.
+3. **Southern California**: adult members of Kaiser Permanente
+4. **Europe**: 28 countries.
+5.  **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire, 
 
 Cumulative ACEs—encompassing abuse, neglect, household dysfuntion and other adversities like witnessing community violence and orphanhood—were quantified as an integer count ranging from 0 to 6. **Adjusted odds ratios (AORs)** with corresponding **95% confidence intervals (CIs)** were estimated, and associations were considered statistically significant at **p < 0.05**.
 
@@ -22,9 +23,25 @@ It is important to note that, due to the region-specific focus of individual rep
 
 ## Project Objectives
 The project seeks to highlight:
-1. The **prevalence of ACEs** among adults
-2. The **impact of ACEs** on their lives
-3. The **resilience factors** and their effects on mitigating trauma driven behaviours (TDB)
+
+**1. ACE Prevalence**:
+
+Captures global ACE prevalence data across different regions. Research was done on a variety of population groups, ages 18-65 [^1]
+
+**2. ACE Impact**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **i.	ACEs on young adults' life outcomes**: Aggregated data from five SSA countries, showing correlations between ACEs and negative life outcomes, specifically focusing on **dose-response** pattern and **gender-specific differences**. Survey was conducted on young adults aged 18–24. [^2]
+
+&nbsp;&nbsp;&nbsp;&nbsp;**ii.	ACEs and adult mental health**: Analyzes the associations between self-reported mental health outcomes and ACEs from adult members of Kaiser Permanente in southern California. [^3]
+
+&nbsp;&nbsp;&nbsp;&nbsp;**iii. Economic cost of ACEs**: Data from 28 European countries analyzing the economic **impact of ACEs on national GDP**. [^4]
+
+**3. Resilience factors**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **i. PCEs**: Evaluated whether — and which — PCEs
+moderate the association between ACEs and these outcomes in sub-Saharan Africa. Survey data from young adults, ages 18–24 years[^5]
+
+&nbsp;&nbsp;&nbsp;&nbsp; **ii. AAA Support**: focuses on health-harming behaviours (HHBs) and lower mental well-being (LMWBs) caused by ACEs and investigates whether **continuous support from a trusted adult during childhood** can build resilience, mitigating these negative effects. Study was conducted on adults aged 18–69. [^6]
 
 ## Tools & Technologies Used
 A hybrid approach integrated **SQL’s efficiency** in data extraction, schema design, and structured data management with **Python’s powerful statistical analysis** and **rich visualization** capabilities, delivering a workflow that was both efficient and insight-driven.
@@ -177,6 +194,7 @@ See [ACE Prevalence % by Region notebook](/notebooks/ACE_Prevalence_%25_by_Regio
 
 
 ### 2. Impact of ACEs
+Next is to analyze the impact that the ACEs have on adult life, outcomes and finacial costs. 
 
 ### 3. Mitigation role of PCEs (Resilience)
 
