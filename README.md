@@ -235,8 +235,8 @@ Finally, the project explores how Positive Childhood Experiences (PCEs) and the 
 
 See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) for detailed steps.
 
-**a. Positive Childhood Experiences (PCEs)**
-
+### A. Positive Childhood Experiences (PCEs)**
+___
 ![PCEs with significant protective effect](/visuals/3.1PCEs_with_significant_protective_effect.png)
 
 ### Insights
@@ -257,7 +257,8 @@ See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) 
 - Include parent–child relationship training in community and school-based resilience programs.
 - Evaluate and monitor parent–child relationship quality as part of early interventions.
 
-**b. Always Available Adult (AAA) support**
+### B. Always Available Adult (AAA) support**
+___
 ![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
 
 The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being.
