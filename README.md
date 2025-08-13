@@ -167,7 +167,7 @@ Analysis begins with showing the prevalance of ACEs across the globe using a glo
 
 See [ACE Prevalence % by Region notebook](/visuals/ACE_Prevalence_%_by_Region_notebook) for detailed steps.
 
-![ACE prevalence %](/visuals/1.%20ACE_Prevalence_%20%25_by_Country.png)
+![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
 
 
