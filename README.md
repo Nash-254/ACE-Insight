@@ -65,6 +65,7 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 - **LMWB**: Lower Mental Well-Being
 - **SSA**: Sub-Saharan Africa
 - **GDP**: Gross Domestic Product
+- **DALYs**: Disability-Adjusted Life Year (Years lost & Years lived with illness or disabilty)
 - **AOR**: Adjusted Odds Ratio
 - **CI**: Confidence Interval
 

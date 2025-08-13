@@ -235,14 +235,14 @@ SELECT * from ace_impact.country_costs;
 
 
 -- DATA QUERY ANALYSIS
--- ACE costs as a percentage of GDP
- SELECT 
+-- ACE costs as a percentage of GDP with DALYs
+SELECT 
     country,
     gdp_per_capita_usd,
-    percent_gdp
+    percent_gdp,
+    ace_dalys_thousands
 FROM ace_impact.country_costs
-ORDER BY 
-    percent_gdp DESC;
+ORDER BY percent_gdp DESC;
 --------------------------------------------------------------------------------
 -- END of Table creation, data insert and queries for ACE Cost Analysis for European Countries
 -- =============================================================================
