@@ -78,7 +78,7 @@ Stores global ACE prevalence data by geographic region and country.
 -	**Table**: `ace_prevalence_by_region`
 -	**Purpose**: Capture prevalence percentages across continents, with metadata such as year, population group, and data source.
 ________________________________________
-**2. `ace_impact` Schema**
+**2. `ace_impact` Schema; 3 tables**
 
 Houses multiple datasets analyzing the effects of ACEs and their impact.
 
@@ -91,11 +91,11 @@ Houses multiple datasets analyzing the effects of ACEs and their impact.
 **c. Table**: `country_costs`
 - **Purpose**: Quantify the economic burden of ACEs in European countries as GDP loss.
 ________________________________________
-**3. `resilience_factors` Schema**
+**3. `resilience_factors` Schema; 6 tables**
 
 The resilience schema is divided into two thematic areas: Positive Childhood Experiences (PCE) and Always Available Adult (AAA). Each area contains dedicated tables to store outcome measures, ACE grouping information, resilience factor types, and statistical associations.
 
-**a. Positive Childhood Experiences (PCE)**
+**a. Positive Childhood Experiences (PCE); 4 tables**
 
 **i. Table**: `outcomes`
 - **Purpose**: Define measurable life or health outcomes assessed in PCE-related studies.
@@ -109,7 +109,7 @@ The resilience schema is divided into two thematic areas: Positive Childhood Exp
 **iv. Table**: `study_results`
 - **Purpose**: Store statistical associations between PCEs and outcomes, stratified by ACE groups and other covariates.
 
-**b. Always Available Adult (AAA)**
+**b. Always Available Adult (AAA); 2 tables**
 
 **i. Table**: `ace_count`
 - **Purpose**: Record ACE exposure counts for participants in AAA resilience analyses.
