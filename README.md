@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project investigates how **Adverse Childhood Experiences (ACEs)** shape outcomes in adulthood, and how **Positive Childhood Experiences (PCEs)** and the presence of an **Always Available Adult (AAA) during childhood** can **buffer** and **reduce** these **impacts**. The analysis draws on report findings from multiple regions worldwide, offering a comparative view of prevalence, impact, and resilience factors. The analysis is based on report findings from the following regions:
-1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**.
+1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**. 24 countries were analyzed.
 2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia.
 3. **Southern California**: adult members of Kaiser Permanente.
 4. **Europe**: 28 countries.
@@ -140,7 +140,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 
 **a. Dose-response pattern in young adults**
 
-![Dose-response pattern and Gender-specific differences](/visuals/2.1Dose-response_pattern_and_Gender_specific_differences.png)
+![Dose-response pattern and Gender-specific differences](/visuals/2.1.Dose-response_pattern_and_Gender_specific_differences.png)
 
 ### Insights and Recommendations
 - Findings reinforce that **multiple ACE exposures dramatically elevate risk** for serious behavioral and mental health outcomes.
@@ -150,7 +150,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 
 **b. HHB and LMH in adults mental health due to ACEs**
 
-![Self-reported mental health outcomes vs ACEs](/visuals/2.2Self-reported_%20mental_health_outcomes_and_ACEs.png)
+![Self-reported mental health outcomes vs ACEs](/visuals/2.2.Self-reported_%20mental_health_outcomes_and_ACEs.png)
 
 
 ### Insights and Recommendations 
@@ -161,7 +161,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 
 **c. Cost to GDP of ACEs**
 
-![Impact of ACEs on nationalGDP](/visuals/2.3Impact_of_ACEs_on_national_GDP.png)
+![Impact of ACEs on nationalGDP](/visuals/2.3.Impact_of_ACEs_on_national_GDP.png)
 
 ### Insights and Recommendations 
 1. **Wealth is not a shield**: Finland, despite high GDP per capita, has one of the highest proportional losses (4.1%).
@@ -177,7 +177,7 @@ See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) 
 
 ### A. Positive Childhood Experiences (PCEs)
 ___
-![PCEs with significant protective effect](/visuals/3.1PCEs_with_significant_protective_effect.png)
+![PCEs with significant protective effect](/visuals/3.1.PCEs_with_significant_protective_effect.png)
 
 ### Insights
 - **Strong father-child relationships** were **protective for males** against suicidal/self-harm (aOR ~0.40) and substance use (aOR ~0.60), suggesting this PCE is highly impactful for this subgroup.
@@ -199,11 +199,11 @@ ___
 
 ### B. Always Available Adult (AAA) support
 ___
-![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
+![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1.ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
 
 The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being.
 
-![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2ACE_WITH_AA_Support_vs_Adult_Health_Outcomes.png)
+![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2.ACE_WITH_AA_Support_vs_Adult_Health_Outcomes.png)
 
 Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
 
