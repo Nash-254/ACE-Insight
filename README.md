@@ -167,6 +167,9 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 ### Insights and Recommendations 
 1. **Wealth is not a shield**: Finland, despite high GDP per capita, has one of the highest proportional losses (4.1%).
 2. **Large economies, high absolute costs**: Germany ($129.4B) and France ($38B) have massive total ACE costs despite moderate % GDP losses.
+3. Countries with **high DALYs** attributed to ACEs are loosing a large workforce therefore **lower productivity affecting GDP**.
+
+### Recommendations
 3. **Wealthy nations with high proportional losses** should focus on targeted interventions for at-risk populations rather than broad structural changes.
 4. **Lower-income countries** may benefit most from integrated child protection and public health initiatives to reduce ACE prevalence and long-term costs.
 5. **Economic and health strategies are intertwined** — reducing ACE prevalence improves both population health and national economic performance.
