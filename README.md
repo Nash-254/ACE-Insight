@@ -1,7 +1,7 @@
 # ACE Insight: Mapping Trauma, Impact & Resilience
 
 ## Project Overview
-This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** and **Always Available Adult (AAA)** support in childhood can help mitigate these effects. The analysis is based on report findings from the following regions:
+This project investigates how **Adverse Childhood Experiences (ACEs)** shape outcomes in adulthood, and how **Positive Childhood Experiences (PCEs)** and the presence of an **Always Available Adult (AAA) during childhood** can **buffer** and **reduce** these **impacts**. The analysis draws on report findings from multiple regions worldwide, offering a comparative view of prevalence, impact, and resilience factors. The analysis is based on report findings from the following regions:
 1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**.
 2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia.
 3. **Southern California**: adult members of Kaiser Permanente.
@@ -230,6 +230,9 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 3. **Wealthy nations with high proportional losses** should focus on targeted interventions for at-risk populations rather than broad structural changes.
 4. **Lower-income countries** may benefit most from integrated child protection and public health initiatives to reduce ACE prevalence and long-term costs.
 5. **Economic and health strategies are intertwined** — reducing ACE prevalence improves both population health and national economic performance.
+
+## Conclusion
+Adverse Childhood Experiences (ACEs) leave deep, lasting marks, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope.
 
 ###  References
 [^1]: ChatGPT Analysis
