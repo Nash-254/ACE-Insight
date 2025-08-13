@@ -123,7 +123,7 @@ The resilience schema is divided into two thematic areas: Positive Childhood Exp
 ### 1. Prevalance of ACEs
 Analysis begins with showing the prevalance of ACEs across the globe using a global analysis of the various research done per continent basis. Findings show that there's a high prevalance in low-income and middle-income countries at the 80+ percentile and high-income countries at the 35+ percentile.
 
-See [ACE Prevalence % by Region notebook](/notebooks/ACE_Prevalence_%25_by_Region_notebook.ipynb) for detailed steps.
+See [ACE Prevalence % by Region notebook](/notebooks/1.ACE_Prevalence_%25_by_Region_notebook.ipynb) for detailed steps.
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
@@ -137,7 +137,7 @@ See [ACE Prevalence % by Region notebook](/notebooks/ACE_Prevalence_%25_by_Regio
 ### 2. Impact of ACEs
 Next is to analyze the impact that the ACEs have on adult life, outcomes and financial costs. 
 
-See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed steps.
+See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed steps.
 
 **a. Dose-response pattern in young adults**
 
@@ -177,7 +177,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 ### 3. Resilence Factors
 Finally, the project explores how Positive Childhood Experiences (PCEs) and the presence of an Always Available Adult (AAS) can buffer against the harmful impacts of ACEs, nurturing resilience and empowering healthier, more fulfilling adult lives.
 
-See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) for detailed steps.
+See [Resilience Factors notebook](/notebooks/3.Resilience_Factors_notebook.ipynb) for detailed steps.
 
 ### A. Positive Childhood Experiences (PCEs)
 ___
