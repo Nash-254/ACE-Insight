@@ -2,13 +2,13 @@
 _How one **stable and caring adult** can make a world of difference_
 
 ## Project Overview
-This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** can help mitigate these effects. The analysis is based on report findings from the following regions:
-1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing ACE prevalance percentage. Research was done on a variety of population groups, ages 18-65.
-2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia, focusing on associations and outcomes of ACEs and PCEs in young adults. Survey was conducted on young adults aged 18–24, male and female.
-3. **Europe**: 28 countries focusing on health and financial cost in adults, male and female.
-4. **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire, focusing on the mitigation effect of health-harming behaviours (HHBs) and lower mental well-being (LMWBs) caused by ACEs through continuous support from a trusted adult. Study was conducted on adults aged 18–69, male and female.
+This project explores the impact of **Adverse Childhood Experiences (ACEs)** on adult life and examines how **Positive Childhood Experiences (PCEs)** and **Always Available Adult (AAA)** support in childhood can help mitigate these effects. The analysis is based on report findings from the following regions:
+1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**. Research was done on a variety of population groups, ages 18-65.
+2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia, focusing on **associations and outcomes of ACEs and PCEs** in young adults. Survey was conducted on young adults aged 18–24.
+3. **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire, focusing on on health-harming behaviours (HHBs) and lower mental well-being (LMWBs) caused by ACEs and investigates whether **continuous support from a trusted adult during childhood** can build resilience, mitigating these negative effects. Study was conducted on adults aged 18–69.
+4.  **Europe**: 28 countries focusing on health of adults caused by ACEs and the **financial cost to GDP** as a result.
 
-Cumulative ACEs (including emotional, physical, and sexual violence; witnessing interparental violence and violence in the community; and orphanhood) were defined by an integer count of the total number of individual ACEs (0 to 6). Weighted prevalence and adjusted odds ratios (AOR) were estimated.
+Cumulative ACEs—encompassing abuse, neglect, household dysfuntion and other adversities like witnessing community violence and orphanhood—were quantified as an integer count ranging from 0 to 6. Adjusted odds ratios (AORs) with corresponding 95% confidence intervals (CIs) were estimated, and associations were considered statistically significant at p < 0.05.
 
 
 ## Data Source
@@ -40,7 +40,7 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 
 
 ## Abbreviations
-- **ACE**: Adverse Childhood Experience
+- **ACE**: Adverse Childhood Experiences
 - **PCE**: Positive Childhood Experiences
 - **AAA**: Always Available Adult support in childhood
 - **TDB**: Trauma Drive Behaviours
