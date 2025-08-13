@@ -165,7 +165,7 @@ The resilience schema is divided into two thematic areas: Positive Childhood Exp
 ### 1. Prevalance of ACEs
 Analysis begins with showing the prevalance of ACEs across the globe using a global analysis of the various research done per continent basis. Findings show that there's a high prevalance in low-income and middle-income countries at the 80+ percentile and high-income countries at the 35+ percentile.
 
-See [ACE Prevalence % by Region notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed steps.
+See [ACE Prevalence % by Region notebook](/notebooks/ACE_Prevalence_%25_by_Region_notebook.ipynb) for detailed steps.
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
