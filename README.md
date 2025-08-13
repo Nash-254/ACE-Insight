@@ -196,7 +196,6 @@ See [ACE Prevalence % by Region notebook](/notebooks/ACE_Prevalence_%25_by_Regio
 ### 2. Impact of ACEs
 Next is to analyze the impact that the ACEs have on adult life, outcomes and financial costs. 
 
-
 See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed steps.
 
 **a. Dose-response pattern in young adults**
@@ -205,7 +204,7 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 
 ### Insights and Recommendations
 - Findings reinforce that **multiple ACE exposures dramatically elevate risk** for serious behavioral and mental health outcomes.
-- The **dose–response trend** indicates that even modest ACE reductions could yield substantial health benefits.
+- The **dose–response trend** indicates that even more ACE result to higher outcomes while reductions could yield substantial health benefits.
 - The **largest effect sizes** are for **violence perpetration**, followed by **suicidal/self-harm behaviors**, then **psychological distress**, and lastly **substance use**.
 - Intervention strategies may need **gender-specific targeting** — especially around violence prevention in males and mental health support in females.
 
@@ -230,6 +229,63 @@ See [ACE Impact notebook](/notebooks/ACE_Impact_notebook.ipynb) for detailed ste
 3. **Wealthy nations with high proportional losses** should focus on targeted interventions for at-risk populations rather than broad structural changes.
 4. **Lower-income countries** may benefit most from integrated child protection and public health initiatives to reduce ACE prevalence and long-term costs.
 5. **Economic and health strategies are intertwined** — reducing ACE prevalence improves both population health and national economic performance.
+
+### 3. Resilence Factors
+Finally, the project explores how Positive Childhood Experiences (PCEs) and the presence of an Always Available Adult (AAS) can buffer against the harmful impacts of ACEs, nurturing resilience and empowering healthier, more fulfilling adult lives.
+
+See [Resilience Factors notebook](/notebooks/Resilience_Factors_notebook.ipynb) for detailed steps.
+
+**a. Positive Childhood Experiences (PCEs)**
+
+![PCEs with significant protective effect](/visuals/3.1PCEs_with_significant_protective_effect.png)
+
+### Insights
+- **Strong father-child relationships** were **protective for males** against suicidal/self-harm (aOR ~0.40) and substance use (aOR ~0.60), suggesting this PCE is highly impactful for this subgroup.
+- **Strong mother-child relationships** lowered odds of mental distress (aOR ~0.70), suicidal/self-harm behaviors (aOR ~0.60), and substance use in some cases.
+- Effects were significant mainly when p < 0.05 and aOR < 1, indicating reduced odds of adverse outcomes.
+  
+### Recommendations 
+**1. Targeted parenting programs**:
+- Promote **father engagement initiatives** in suicide prevention programs for young males.
+- Strengthen **mother–child bonding activities**, especially in contexts with high ACE prevalence.
+
+**2. Outcome-specific interventions**:
+- Use strong **father–child relationships** as a protective pillar in **substance use** and **suicidality prevention for males**.
+- Use strong mother–child relationships in mental health support for females.
+
+**3. Incorporate PCE promotion into ACE mitigation frameworks**:
+- Include parent–child relationship training in community and school-based resilience programs.
+- Evaluate and monitor parent–child relationship quality as part of early interventions.
+
+**b. Always Available Adult (AAA) support**
+![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
+
+The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being.
+
+![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2_ACE%20WITH%20_AA_Support_vs_Adult_Health_Outcomes.png)
+
+Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
+
+### Insights
+**PCES and AAA support has a protective effect**
+Across all outcomes, people with an **Always Available Adult (AAA)** in childhood and **Positive Childhood Experiences (PCE)** have **significantly lower rates** of harm:
+  - **Low mental well-being** is less than half (9% vs 21%) when AAA support is present.
+  - **Two or more health-harming** behaviours drop from 10.5% (No AAA) to 6.2% (Yes AAA).
+  - **Daily smoking** is reduced by ~6 percentage points.
+
+### Recommendations
+**1. Prevent Adverse Childhood Experiences (ACEs)**
+   - Invest in early interventions to reduce abuse, neglect, and household dysfunction.
+
+**2. Ensure Every Child Has a Trusted Adult (AAA Support)**
+- Expand mentoring, counseling, and community programs that connect children to consistent supportive adults.
+
+**3. Integrate ACE & AAA Screening in Services**
+- Include ACE and AAA history in health, education, and social service assessments to guide targeted support.
+
+**4. Target Support in High-Risk Communities**
+- Focus prevention and AAA support initiatives where ACE prevalence is highest to maximize impact.
+
 
 ## Conclusion
 **Adverse Childhood Experiences (ACEs) leave deep, lasting marks**, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can **transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope**.
