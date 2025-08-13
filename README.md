@@ -257,20 +257,20 @@ ___
 - Include parent–child relationship training in community and school-based resilience programs.
 - Evaluate and monitor parent–child relationship quality as part of early interventions.
 
-### B. Always Available Adult (AAA) support**
+### B. Always Available Adult (AAA) support
 ___
 ![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
 
 The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being.
 
-![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2_ACE%20WITH%20_AA_Support_vs_Adult_Health_Outcomes.png)
+![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2ACE_WITH_AA_Support_vs_Adult_Health_Outcomes.png)
 
 Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
 
 ### Insights
 **PCES and AAA support has a protective effect**
 Across all outcomes, people with an **Always Available Adult (AAA)** in childhood and **Positive Childhood Experiences (PCE)** have **significantly lower rates** of harm:
-  - **Low mental well-being** is less than half (9% vs 21%) when AAA support is present.
+  - **Low mental well-being** is less than half (9% for Yes vs 21% No) when AAA support is present.
   - **Two or more health-harming** behaviours drop from 10.5% (No AAA) to 6.2% (Yes AAA).
   - **Daily smoking** is reduced by ~6 percentage points.
 
