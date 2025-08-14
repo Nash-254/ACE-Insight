@@ -200,7 +200,7 @@ Across all outcomes, people with an **Always Available Adult (AAA)** in childhoo
   - **Two or more health-harming** behaviours drop from 10.5% (No AAA) to 6.2% (Yes AAA).
   - **Daily smoking** is reduced by ~6 percentage points.
 
-### Recommendations
+## Recommendations
 
 Generally, the short- and long-term ***effects of childhood trauma can be significantly reduced by the presence of a consistent, caring adult**. There is an urgent need for more initiatives that equip mentors—parents, guardians, caregivers, and educators—with the knowledge and skills to recognize and effectively respond to trauma in children as well as in adults. Some recommendations are:
 
