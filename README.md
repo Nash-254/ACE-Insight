@@ -127,10 +127,9 @@ See [ACE Prevalence % by Region notebook](/notebooks/1.ACE_Prevalence_%25_by_Reg
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
-### Insights and Recommendations
+### Insights
 - This suggests **ACE prevalence is a widespread issue globally** rather than isolated to specific regions.
 - The high rates in many African countries could indicate **systemic socioeconomic stressors**, historical trauma, or under-resourced social systems.
-- Countries with unexpectedly high prevalence outside Africa may need **targeted policy reviews** and public health interventions.
 - The **lack of countries with <30%** prevalence in the dataset suggests that **Adverse Childhood Experiences are common globally**, and **prevention strategies must be cross-cultural**.
 
 
@@ -143,18 +142,17 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 
 ![Dose-response pattern and Gender-specific differences](/visuals/2.1.Dose-response_pattern_and_Gender_specific_differences.png)
 
-### Insights and Recommendations
+### Insights
 - Findings reinforce that **multiple ACE exposures dramatically elevate risk** for serious behavioral and mental health outcomes.
 - The **dose–response trend** indicates that even more ACE result to higher outcomes while reductions could yield substantial health benefits.
 - The **largest effect sizes** are for **violence perpetration**, followed by **suicidal/self-harm behaviors**, then **psychological distress**, and lastly **substance use**.
-- Intervention strategies may need **gender-specific targeting** — especially around violence prevention in males and mental health support in females.
 
 **b. HHB and LMH in adults mental health due to ACEs**
 
 ![Self-reported mental health outcomes vs ACEs](/visuals/2.2.Self-reported_%20mental_health_outcomes_and_ACEs.png)
 
 
-### Insights and Recommendations 
+### Insights
 - **Emotional trauma (abuse/neglect)** shows **stronger associations than physical trauma**
 - **Suicide attempts** have the **most severe associations** with ACEs
 - All significant associations show increased risk (no protective factors identified)
@@ -164,15 +162,11 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 
 ![Impact of ACEs on nationalGDP](/visuals/2.3.Impact_of_ACEs_on_national_GDP.png)
 
-### Insights and Recommendations 
+### Insights
 1. **Wealth is not a shield**: Finland, despite high GDP per capita, has one of the highest proportional losses (4.1%).
 2. **Large economies, high absolute costs**: Germany ($129.4B) and France ($38B) have massive total ACE costs despite moderate % GDP losses.
 3. Countries with **high DALYs** attributed to ACEs are loosing a large workforce therefore **lower productivity affecting GDP**.
 
-### Recommendations
-3. **Wealthy nations with high proportional losses** should focus on targeted interventions for at-risk populations rather than broad structural changes.
-4. **Lower-income countries** may benefit most from integrated child protection and public health initiatives to reduce ACE prevalence and long-term costs.
-5. **Economic and health strategies are intertwined** — reducing ACE prevalence improves both population health and national economic performance.
 
 ### 3. RESILIENCE FACTORS
 Finally, the project explores how Positive Childhood Experiences (PCEs) and the presence of an Always Available Adult (AAS) can buffer against the harmful impacts of ACEs, nurturing resilience and empowering healthier, more fulfilling adult lives.
@@ -188,18 +182,6 @@ ___
 - **Strong mother-child relationships** lowered odds of mental distress (aOR ~0.70), suicidal/self-harm behaviors (aOR ~0.60), and substance use in some cases.
 - Effects were significant mainly when p < 0.05 and aOR < 1, indicating reduced odds of adverse outcomes.
   
-### Recommendations 
-**1. Targeted parenting programs**:
-- Promote **father engagement initiatives** in suicide prevention programs for young males.
-- Strengthen **mother–child bonding activities**, especially in contexts with high ACE prevalence.
-
-**2. Outcome-specific interventions**:
-- Use strong **father–child relationships** as a protective pillar in **substance use** and **suicidality prevention for males**.
-- Use strong mother–child relationships in mental health support for females.
-
-**3. Incorporate PCE promotion into ACE mitigation frameworks**:
-- Include parent–child relationship training in community and school-based resilience programs.
-- Evaluate and monitor parent–child relationship quality as part of early interventions.
 
 ### B. Always Available Adult (AAA) support
 ___
