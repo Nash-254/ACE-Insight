@@ -222,7 +222,7 @@ Intervention strategies may need **gender-specific targeting** — especially ar
 **Adverse Childhood Experiences (ACEs)** are a pervasive **global** challenge, leaving **deep and lasting scars**—yet they remain too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can **transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope**.
 
 ###  References
-[^1]: ChatGPT Analysis
+[^1]: ChatGPT  and Claude Analysis
 [^2]: [Adverse Childhood Experiences and Associations in SSA, Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160582/)
 ```Brown C, Nkemjika S, Ratto J, Dube SR, Gilbert L, Chiang L, Picchetti V, Coomer R, Kambona C, McOwen J, Akani B, Kamagate MF, Low A, Manuel P, Agusto A, Annor FB. Adverse Childhood Experiences and Associations with Mental Health, Substance Use, and Violence Perpetration among Young Adults in sub-Saharan Africa. Child Abuse Negl. 2024 Apr;150:106524. doi: 10.1016/j.chiabu.2023.106524. Epub 2023 Oct 26. PMID: 38854869; PMCID: PMC11160582.```
 [^3]: [Unpacking the impact of ACEs on adult mental health, Table 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007802/#S14) ```Merrick MT, Ports KA, Ford DC, Afifi TO, Gershoff ET, Grogan-Kaylor A. Unpacking the impact of adverse childhood experiences on adult mental health. Child Abuse Negl. 2017 Jul;69:10-19. doi: 10.1016/j.chiabu.2017.03.016. Epub 2017 Apr 15. PMID: 28419887; PMCID: PMC6007802.```
