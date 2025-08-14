@@ -218,7 +218,7 @@ Generally, the short- and long-term ***effects of childhood trauma can be signif
 
 
 ## Conclusion
-**Adverse Childhood Experiences (ACEs) leave deep, lasting marks**, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can **transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope**.
+**Adverse Childhood Experiences (ACEs)** are a widespread **global**issue that **leave deep, lasting marks**, yet they’re too often overlooked. This project brings global data together to reveal the scale, patterns, and consequences of ACEs—and to show that **change is possible**. With greater awareness and early, targeted action, we can **transform ACEs from a silent burden into an urgent call for prevention, resilience, and hope**.
 
 ###  References
 [^1]: ChatGPT Analysis
