@@ -3,7 +3,7 @@
 ## Project Overview
 This project investigates how **Adverse Childhood Experiences (ACEs)** shape outcomes in adulthood, and how **Positive Childhood Experiences (PCEs)** and the presence of an **Always Available Adult (AAA) during childhood** can **buffer** and **reduce** these **impacts**. The analysis draws on report findings from multiple regions worldwide, offering a comparative view of prevalence, impact, and resilience factors. The analysis is based on report findings from the following regions:
 1. **Global**: Africa, Asia, Europe, North & South America and Ocenia showing **ACE prevalance percentage**. 24 countries were analyzed.
-2. Five **Sub-Saharan African (SSA) countries**: Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia.
+2. **Sub-Saharan African (SSA) countries**: Five countries; Cote d'Ivoire, Kenya, Lesotho, Mozambique, and Namibia.
 3. **Southern California**: adult members of Kaiser Permanente.
 4. **Europe**: 28 countries.
 5.  **United Kingdom (UK)**: four regions; Luton, Wales, Hertfordshire, and Northamptonshire.
