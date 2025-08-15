@@ -1,3 +1,5 @@
+## Detailed Schema Design
+
 **1. `ace_prevalence` Schema**
 
 Stores global ACE prevalence data by geographic region and country.
