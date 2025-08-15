@@ -118,6 +118,7 @@ The resilience schema is divided into two thematic areas: Positive Childhood Exp
 **ii Table**: `aaa_support`
 - **Purpose**: Store associations between AAA access in childhood and measured outcomes, stratified by ACE exposure.
 
+For a detailed schema design, see [Full Schema Design markdown document](/notebooks/full_schema_design.md)
 
 ## Data Analysis
 ### 1. PREVALENCE OF ACEs
