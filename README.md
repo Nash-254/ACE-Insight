@@ -60,14 +60,14 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 - **ACE**: Adverse Childhood Experiences
 - **PCE**: Positive Childhood Experiences
 - **AAA**: Always Available Adult support in childhood
-- **TDB**: Trauma Drive Behaviours
+- **TDB**: Trauma Driven Behaviours
 - **HHB**: Health-Harming Behaviour
 - **LMWB**: Lower Mental Well-Being
 - **SSA**: Sub-Saharan Africa
 - **GDP**: Gross Domestic Product
-- **DALYs**: Disability-Adjusted Life Year (Years lost & Years lived with illness or disabilty)
-- **AOR**: Adjusted Odds Ratio
-- **CI**: Confidence Interval
+- **DALYs**: Disability-Adjusted Life Year (Years lost & Years lived with illness or disabilty).
+- **AOR**: Adjusted Odds Ratio; shows the odds of the occurence of an event while accounting for other factors. Lower is better.
+- **CI**: Confidence Interval; A range where the true answer likely is, usually at 95%. A narrower gap means more precision.
 
 
 ## Schema Design
@@ -128,7 +128,7 @@ See [ACE Prevalence % by Region notebook](/notebooks/1.ACE_Prevalence_%25_by_Reg
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
 
-### Insights
+**Insights**
 - This suggests **ACE prevalence is a widespread issue globally** rather than isolated to specific regions.
 - The high rates in many African countries could indicate **systemic socioeconomic stressors**, historical trauma, or under-resourced social systems.
 - The **lack of countries with <30%** prevalence in the dataset suggests that **Adverse Childhood Experiences are common globally**, and **prevention strategies must be cross-cultural**.
@@ -143,7 +143,7 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 
 ![Dose-response pattern and Gender-specific differences](/visuals/2.1.Dose-response_pattern_and_Gender_specific_differences.png)
 
-### Insights
+**Insights**
 - Findings reinforce that **multiple ACE exposures dramatically elevate risk** for serious behavioral and mental health outcomes.
 - The **dose–response trend** indicates that even more ACE result to higher outcomes while reductions could yield substantial health benefits.
 - The **largest effect sizes** are for **violence perpetration**, followed by **suicidal/self-harm behaviors**, then **psychological distress**, and lastly **substance use**.
@@ -153,7 +153,7 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 ![Self-reported mental health outcomes vs ACEs](/visuals/2.2.Self-reported_%20mental_health_outcomes_and_ACEs.png)
 
 
-### Insights
+**Insights**
 - **Emotional trauma (abuse/neglect)** shows **stronger associations than physical trauma**
 - **Suicide attempts** have the **most severe associations** with ACEs
 - All significant associations show increased risk (no protective factors identified)
@@ -163,7 +163,7 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 
 ![Impact of ACEs on nationalGDP](/visuals/2.3.Impact_of_ACEs_on_national_GDP.png)
 
-### Insights
+**Insights**
 1. **Wealth is not a shield**: Finland, despite high GDP per capita, has one of the highest proportional losses (4.1%).
 2. **Large economies, high absolute costs**: Germany ($129.4B) and France ($38B) have massive total ACE costs despite moderate % GDP losses.
 3. Countries with **high DALYs** attributed to ACEs are loosing a large workforce therefore **lower productivity affecting GDP**.
@@ -178,7 +178,7 @@ See [Resilience Factors notebook](/notebooks/3.Resilience_Factors_notebook.ipynb
 ___
 ![PCEs with significant protective effect](/visuals/3.1.PCEs_with_significant_protective_effect.png)
 
-### Insights
+**Insights**
 - **Strong father-child relationships** were **protective for males** against suicidal/self-harm (aOR ~0.40) and substance use (aOR ~0.60), suggesting this PCE is highly impactful for this subgroup.
 - **Strong mother-child relationships** lowered odds of mental distress (aOR ~0.70), suicidal/self-harm behaviors (aOR ~0.60), and substance use in some cases.
 - Effects were significant mainly when p < 0.05 and aOR < 1, indicating reduced odds of adverse outcomes.
@@ -194,7 +194,7 @@ The trend lines make it clear that as ACE count increases, the rates of all nega
 
 Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
 
-### Insights
+**Insights**
 **PCES and AAA support has a protective effect**
 Across all outcomes, people with an **Always Available Adult (AAA)** in childhood and **Positive Childhood Experiences (PCE)** have **significantly lower rates** of harm:
   - **Low mental well-being** is less than half (9% for Yes vs 21% No) when AAA support is present.
