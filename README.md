@@ -66,7 +66,7 @@ A hybrid approach integrated **SQL’s efficiency** in data extraction, schema d
 - **SSA**: Sub-Saharan Africa
 - **GDP**: Gross Domestic Product
 - **DALYs**: Disability-Adjusted Life Year (Years lost & Years lived with illness or disabilty).
-- **AOR**: Adjusted Odds Ratio; shows the odds of the occurence of an event while accounting for other factors. Lower is better.
+- **aOR**: Adjusted Odds Ratio; shows the odds of the occurence of an event while accounting for other factors. Lower is better.
 - **CI**: Confidence Interval; A range where the true answer likely is, usually at 95%. A narrower gap means more precision.
 
 
