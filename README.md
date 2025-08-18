@@ -133,7 +133,7 @@ See [ACE Prevalence % by Region notebook](/notebooks/1.ACE_Prevalence_%25_by_Reg
 - The **lack of countries with <30%** prevalence in the dataset suggests that **Adverse Childhood Experiences are common globally**, and **prevention strategies must be cross-cultural**.
 
 ![ACE prevalence %](/visuals/1.ACE_Prevalence_by_Country.png)
-Figure 1. ACE Prevalence % by Country
+***Figure 1. ACE Prevalence % by Country***
 
 ### 2. IMPACT OF ACEs
 Next is to analyze the impact that the ACEs have on adult life, outcomes and financial costs. 
@@ -148,7 +148,7 @@ See [ACE Impact notebook](/notebooks/2.ACE_Impact_notebook.ipynb) for detailed s
 - The **largest effect sizes** are for **violence perpetration**, followed by **suicidal/self-harm behaviors**, then **psychological distress**, and lastly **substance use**.
 
 ![Dose-response pattern and Gender-specific differences](/visuals/2.1.Dose-response_pattern_and_Gender_specific_differences.png)
-Figure 2.1. Dose-response pattern and Gender specific differences
+***Figure 2.1. Dose-response pattern and Gender specific differences***
 
 **b. HHB and LMH in adults mental health due to ACEs**
 
@@ -159,7 +159,7 @@ Figure 2.1. Dose-response pattern and Gender specific differences
 - Household dysfunction (mental illness, substance abuse) creates substantial risk
 
 ![Self-reported mental health outcomes vs ACEs](/visuals/2.2.Self-reported_%20mental_health_outcomes_and_ACEs.png)
-Figure 2.2. Self-reported mental health outcomes and ACEs
+***Figure 2.2. Self-reported mental health outcomes and ACEs***
 
 **c. Cost to GDP of ACEs**
 
@@ -169,7 +169,7 @@ Figure 2.2. Self-reported mental health outcomes and ACEs
 3. Countries with **high DALYs** attributed to ACEs are loosing a large workforce therefore **lower productivity affecting GDP**.
 
 ![Impact of ACEs on nationalGDP](/visuals/2.3.Impact_of_ACEs_on_national_GDP.png)
-Figure 2.3. Impact of ACEs on national GDP
+***Figure 2.3. Impact of ACEs on national GDP***
 
 ### 3. RESILIENCE FACTORS
 Finally, the project explores how Positive Childhood Experiences (PCEs) and the presence of an Always Available Adult (AAS) can buffer against the harmful impacts of ACEs, nurturing resilience and empowering healthier, more fulfilling adult lives.
@@ -185,7 +185,7 @@ ___
 - Effects were significant mainly when p < 0.05 and aOR < 1, indicating reduced odds of adverse outcomes.
   
 ![PCEs with significant protective effect](/visuals/3.1.PCEs_with_significant_protective_effect.png)
-Figure 3.1. PCEs with significant protective effect
+***Figure 3.1. PCEs with significant protective effect***
 
 ### B. Always Available Adult (AAA) support
 
@@ -196,11 +196,11 @@ Figure 3.1. PCEs with significant protective effect
 ___
 The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being;
 ![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1.ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
-Figure 3.2.1. ACE WITHOUT AAA Support vs Adult Health Outcomes
+***Figure 3.2.1. ACE WITHOUT AAA Support vs Adult Health Outcomes***
 
 Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
 ![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2.ACE_WITH_AA_Support_vs_Adult_Health_Outcomes.png)
-Figure 3.2.2. ACE WITH AAA support vs Adult Health Outcomes
+***Figure 3.2.2. ACE WITH AAA support vs Adult Health Outcomes***
 
 
 
