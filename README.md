@@ -196,11 +196,11 @@ ___
 ___
 The trend lines make it clear that as ACE count increases, the rates of all negative outcomes rise sharply, especially for smoking and low mental well-being;
 ![ACE WITHOUT AAA Support vs Adult Health Outcomes](/visuals/3.2.1.ACE_WITHOUT_AAA%20Support_vs_Adult_Health_Outcomes.png)
-**Figure 3.2.1.** ACE WITHOUT AAA Support vs Adult Health Outcomes
+**Figure 3.2.1.** ACE **WITHOUT** AAA Support vs Adult Health Outcomes
 
 Having **AAA support** (1) consistently aligns with **lower percentages** of all negative outcomes.
 ![ACE WITH AAA Support vs Adult Health Outcomes](/visuals/3.2.2.ACE_WITH_AA_Support_vs_Adult_Health_Outcomes.png)
-**Figure 3.2.2.** ACE WITH AAA support vs Adult Health Outcomes
+**Figure 3.2.2.** ACE **WITH** AAA support vs Adult Health Outcomes
 
 
 ## Recommendations
